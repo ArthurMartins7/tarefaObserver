@@ -28,7 +28,7 @@ public class Porteiro extends Thread {
                     observer.chegou(event);
                 }
             } else {
-                System.out.println("Alarme falso!");
+                System.out.println("ME ENGANEI, ME ENGANEI, AINDA NÃO CHEGOU!");
             }
 
         }
